@@ -1,1 +1,570 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>IRC7 from SoftwareMK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Great app by SoftwareMK">
+    <meta name="keywords" content="wp7,graze,windows phone">
+    <meta name="author" content="SoftwareMK">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/css/grazewp7.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand pull-left" href="http://softwaremk.org" target="_blan">SoftwareMK</a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Windows Phone 7 apps <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                    <li class="active">
+                                        <a href="#" >IRC7</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://ipsnoop.softwaremk.org">IP Snoop</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://movieposters.softwaremk.org">Movie Posters</a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="http://softwaremk.org/index.php/contact/" target="_blank" ><i class="icon-inbox"></i> Email</a>
+                                    <a href="http://softwaremk.org/index.php/services"  target="_blank" ><i class="icon-home"></i> Company Information</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h1>IRC7</h1>
+                    <p>The IRC Chat app for WP7</p>
+                    <p class="download-info">
+                        <a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" class="btn btn-primary btn-small">Download Free Trial</a>
+                    </p>
+                    
+                    <div id="myModalMini" class="modal hide fade">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h3>Introduction</h3>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="250" height="141" src="http://www.youtube.com/embed/Ws8-PKO0i_k" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn" data-dismiss="modal">Close</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subnav subnav-fixed">
+                <ul class="nav nav-pills">
+                    <li>
+                        <a href="#home"><i class="icon-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="#reviews"><i class="icon-star"></i> Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#features"><i class="icon-check"></i> Features</a>
+                    </li>
+                    <li>
+                        <a href="#help"><i class="icon-question-sign"></i> Help</a>
+                    </li>
+                    <li>
+                        <a href="#news"><i class="icon-inbox"></i> News</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="span5">
+                    <div id="screenshotarea">
+                        <div id="phones">
+                            <div id="phone">
+                                <div id="screens">
+                                    <div id="slider">
+                                        <ul>
+                                                <li>
+                                                    <img src="assets/shots/chat_small.PNG" alt="Chat" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/frontpage.PNG" alt="Frontpage" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/activity.PNG" alt="Activity view" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/newprivate.PNG" alt="Private message notification" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/usermanagement.PNG" alt="User management" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/aliases.PNG" alt="Aliases" />
+                                                </li>
+                                                <li>
+                                                    <img src="assets/shots/newconnection.PNG" alt="SSL" />
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="smallPhone">
+                                <img src="assets/shots/static.png" alt="Logo" ></div>
+                            <a data-toggle="modal" href="#myModal">
+                                <h6 class="videolink"><i class="icon-play-circle"></i>See it in action!</h6>
+                            </a>
+                            <div id="myModal" class="modal hide fade">
+                                <div class="modal-header">
+                                    <a class="close" data-dismiss="modal">&times;</a>
+                                    <h3>Introduction</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="520" height="293" src="http://www.youtube.com/embed/Ws8-PKO0i_k" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span7">
+                    <header id="normalheader" class="jumbotron masthead">
+                        <h1>IRC7</h1>
+                        <p>The IRC Chat app for WP7</p>
+                        <p class="download-info">
+                            <a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" class="btn btn-primary btn-large">Download Free Trial</a>
+                        </p>
+                    </header>
+                    <div class="marketing"  id="reviews">
+                        <h1>The Most Popular Windows Phone IRC Chat Client!</h1>
+                        <p class="marketing-byline">See what others are saying.</p>
+                        <div class="row">
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Top IRC App. Ũbersichtlich und schnell.
+                                        <small>PierrTr</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Fast, responsive and reliable.
+                                        <small>Jyae 31</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Great app to connect to my favourite channel (PowerShell) on chat.eu.freenode.net.
+                                        <small>sstrangerwp7</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Works really good. Hope they add a background agent so I stay logged in when minimizing. :)     
+                                        <small>HanniLiger</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Very good. I think this is just about as good as an IRC client can be on a phone, and now it event has support for secure connections!
+                                        <small>jason404z</small> </blockquote>
+                                </div>
+                                <div class="span3">
+                                    <h2>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                    </h2>
+                                    <blockquote>
+                                        Very short trial almost put me off but works great. Desperately needed well done creators.
+                                        <small>Player734311397</small> </blockquote>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="pull-right">
+                <a href="#">Back to top</a></p>
+            <section id="features">
+                <div class="page-header">
+                    <h1>Features</h1>
+                </div>
+                <div class="row marketing">
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Easy to get started</h2>
+                            <p>If you know the basics of IRC (Internet Relay Chat), you can get started in few seconds. Chat with thousands of other IRC users.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Multi-server support</h2>
+                            <p>With this IRC app you’re not limited to only one server. Want to connect to both the QuakeNet and the IRCNet, simultaneously? IRC7 can do that for you. </p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Nick and link highlighting</h2>
+                            <p>Don't miss important messages. Your nick is always highlighted and you can open links directly from the chat window.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>User Management</h2>
+                            <p>Op, kick and send private messages from a easy-to-use user management window.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Lightweight</h2>
+                            <p>Even though this IRC client is rich with features, it doesn't stress your phone.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Smart encoding</h2>
+                            <p>IRC7 defaults to UTF-8 encoding. This works in most of the situations, but if this IRC app notices problems with someone’s messages, it automatically reverts to ISO 8859-1. </p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Secure</h2>
+                            <p>The only IRC app available which supports SSL. Also SASL is supported, making this IRC client app very secure.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Scriptable</h2>
+                            <p>Startup scripts and custom aliases. Custom aliases can be created with a smart scripting syntax.</p>
+                        </div>
+                        <div class="span4">
+                            <img class="bs-icon" src="assets/img/glyphicons/glyphicons_009_magic.png">
+                            <h2>Active Community</h2>
+                            <p>IRC7 is already rich with features. But it will get better and better. If you have an idea of how to make the app even better, share it with others through the UserVoice. irc7.uservoice.com</p>
+                        </div>
+                </div>
+                <p class="pull-right">
+                    <a href="#">Back to top</a></p>
+                <section id="help" class="row">
+                    <div class="span8">
+                        <div class="page-header">
+                            <h1>Help</h1>
+                        </div>
+                        <h3>How to get started with IRC7?</h3>
+
+<p>The <a href="http://www.youtube.com/watch?v=HmXZ-PKxQ68">following video</a> shows how you can get started with this IRC chat app.</p>
+
+<h3>Why am I disconnected when I switch my Windows Phone 7 to an another app?</h3>
+
+<p>Unfortunately the Windows Phone 7 Mango doesn’t allow an app to keep its sockets connected when the app is deactivated. This means that all connections are automatically disconnected by the operating system as soon as the app is moved to the background. IRC7 will reconnect automatically when it’s again activated.</p>
+
+<h3>Does IRC7 run under lock screen?</h3>
+
+<p>Currently, IRC7 doesn’t run under the lock screen. If you bring on the lock screen, your connections will be automatically closed and they are also automatically opened when the phone usage is resumed. Running IRC7 under the lock screen would be an excellent addition to the app but unfortunately, there are technical limitations in the Mango which prevent us from adding the support.</p>
+
+<p>The problem is that the phone will automatically stop all the traffic in the socket connection as soon as you bring on the lock screen. The connection will stay open, but you won’t receive any messages until the app is again activated. This means that when at some point the server sends a ping-query to you, the IRC7 won’t receive the message and can’t answer to it. This in turn will cause the server to disconnect you with the “Ping timeout” –message.</p>
+
+<p>The best what we can do at the moment is to disable the user idle detection.</p>
+
+<h3>What character encoding does the IRC7 use?</h3>
+
+<p>For all of the outgoing messages IRC7 uses the UTF-8 encoding. For the incoming messages IRC7 supports the UTF-8 and the ISO-8859-1 encodings. It is capable of reading messages both in ISO 8859-1 or UTF-8 in the same channel, heuristically auto detecting which encoding is used.</p>
+
+<h3>What IRC-networks are supported by the IRC7?</h3>
+
+<p>IRC7 supports all the IRC-networks which follow the standard IRC-protocol. It has been tested with the following networks:</p>
+
+<p>QuakeNet<br/>
+IRCNet<br/>
+Undernet<br/>
+EFNet<br/>
+DALnet</p>
+
+<h3>IRC7 is missing command X. Is there a way to send a raw IRC-command to the server?</h3>
+
+<p>Yes, it is possible to send raw IRC-commands to the server. To do that you should prefix your chat-messages with the ‘/’ character. For example, if you want to invite someone to your channel, you can type “/INVITE usersnick #yourchannel”. Note that on the server console every message is treated as a raw-command so no prefix is required.</p>
+
+<h3>Does IRC7 support SSL?</h3>
+
+<p>Yes!</p>
+
+                    </div>
+                    <div class="span4">
+                        <div class="page-header">
+                            <h1>About</h1>
+                        </div>
+                        <img src="assets/shots/marketplace_99.png" alt="logo" class="pull-right" />
+                        <h4>Current version:</h4>
+                        1.7
+                        <h4>First release:</h4>
+                        9/2011
+                        <h4>Average rating:</h4>
+                        4 (based on 79 reviews)
+                    </div>
+                </section>
+                <p class="pull-right">
+                    <a href="#">Back to top</a></p>
+                <section id="news" class="row">
+                    <div class="span8">
+                        <div class="page-header">
+                            <h1>News</h1>
+                        </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <h2>IRC7 1.6 now available!</h2>
+                                    <small>31.1.2012</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <p><p>The IRC7 1.6 is now available from the Marketplace. Please, let us know your feedback:</p>
+<ul>
+<li><a href="http://irc7.org/index.php/contact/">Contact form</a></li>
+<li><a href="http://irc7.uservoice.com" target="_blank">UserVoice</a></li>
+</ul>
+<p><a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3">Download</a>.</p>
+</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <h2>IRC7 1.6 with SASL support available soon</h2>
+                                    <small>29.1.2012</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <p><p><a href="http://irc7.org/wp-content/uploads/2012/01/newconnection.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="newconnection" border="0" alt="newconnection" align="right" src="http://irc7.org/wp-content/uploads/2012/01/newconnection_thumb.png" width="188" height="310"></a>New version of IRC7 is available soon. The new features in this release include:</p>
+<ul>
+<li>Channel-name highlighting. Join the channel by touching it.</li>
+<li><strong>SASL-support</strong> for Freenode.</li>
+<li>Query-command.</li>
+<li>Other smaller fixes and enchantments.</li>
+</ul>
+<p>The SASL-support is the highlight of this release. We’re really happy that IRC7 will become the first WP7 IRC-client to support SASL. And you’re not limited to SASL-only, you can combine it with SSL if the server supports it!</p>
+<p>Let us know how the new version works out for you!</p>
+</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <h2>IRC7 1.5 now available from Marketplace. IRC client with SSL for Windows Phone.</h2>
+                                    <small>31.12.2011</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <p><p>The <a href="http://irc7.org/index.php/2011/12/22/irc7-1-5-coming-soon-with-ssl-support/">promised SSL/TLS update</a> for IRC7 is now available from the Marketplace. We’re extremely interested to hear your feedback. To contact us, you can select from the following options:</p>
+<ul>
+<li><a href="http://irc7.org/index.php/contact/">Contact form</a>
+<li><a href="http://irc7.uservoice.com/forums/130681-general/suggestions/2224780-ssl-should-be-supported">UserVoice: SSL should be supported</a>
+<li>App review</li>
+</ul>
+<p><a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank">Download link for IRC7.</a></p>
+</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <h2>IRC7 1.5 coming soon with SSL support!</h2>
+                                    <small>22.12.2011</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <p><p>We’re extremely happy to report that the next version of IRC7 will offer support for secure SSL/TLS connections! Windows Phone Mango doesn’t support SSL socket’s out of the box so the implementation has taken some time, but now, with the 1.5 release IRC7 will offer support for secure connections using the TLS 1.0 protocol.</p>
+<p>The 1.5 version has been submitted to <a href="http://windowsphone.com/s?appid=345e96da-fa2a-457f-95ce-f09e6f3b28a3" target="_blank">Marketplace</a> and <strong>it will be available hopefully in just few days.</strong></p>
+<h2>Usage:</h2>
+<p>In order to connect to a secured IRC server, tick the new “Secure(TLS/SSL)” box from the “Connect to Server” –dialog:</p>
+<p><a href="http://irc7.org/wp-content/uploads/2011/12/image1.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://irc7.org/wp-content/uploads/2011/12/image_thumb1.png" width="202" height="339"></a></p>
+<p>After the connection has been established, everything should work similar to a standard connection.</p>
+<h2></h2>
+<h2>Supported protocols:</h2>
+<p>IRC7 1.5 supports the TLS 1.0 (“SSL 3.1”) protocol. To be more precise, the following cipher suits are supported:</p>
+<p>TLS_DHE_RSA_WITH_AES_256_CBC_SHA<br />TLS_DHE_RSA_WITH_AES_128_CBC_SHA<br />TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA<br />TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA<br />TLS_RSA_WITH_AES_256_CBC_SHA<br />TLS_RSA_WITH_AES_128_CBC_SHA<br />TLS_RSA_WITH_3DES_EDE_CBC_SHA</p>
+<p>The client supports the simple TLS handshake where the server but not the client is authenticated.</p>
+<h2>Current status:</h2>
+<p>The current status of SSL support in IRC7 could be called experimental. It has been tested with multiple servers but we haven’t had the chance to run it through a complete test suite. We wanted to get the first version with SSL support out as soon as possible because that’s the only way to know for sure if there’s any problems with out implementation.</p>
+<p>At this point there’s no plans to add support for client-authenticated TLS handshake, because adding new certificates to the phone is not an easy task. </p>
+<p>SSL 3.0 support may be added at a later time. Currently TLS 1.0 is the most supported protocol and most if not all of the IRC servers support it.</p>
+<p>Currently the certificate which the server sends is always accepted. In the future versions it’s likely that we add a support for common validations of the certificate (like the expiration date) and provide a warning popup if there’s any problems with the certificate.</p>
+<p><strong>Please note: </strong>In this release the smart encoding doesn’t work for SSL connections. The encoding is always UTF8.</p>
+<h2>Feedback:</h2>
+<p>We would love to hear back from you. Does the SSL work for you? If not, is there a server which we could test against? Do you need support for some cipher suite we don’t yet provide? Have you encountered any situations where a function works with a standard connection but not with a secure connection?</p>
+<p>To contact us, you can select from the following options:</p>
+<ul>
+<li><a href="http://irc7.org/index.php/contact/">Contact form</a></li>
+<li><a href="http://irc7.uservoice.com/forums/130681-general/suggestions/2224780-ssl-should-be-supported" target="_blank">UserVoice: SSL should be supported</a></li>
+<li>App review</li>
+</ul>
+<p>Have a happy Christmas!</p>
+</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <h2>1.4 version available with a powerful new alias-engine</h2>
+                                    <small>6.12.2011</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <p><p><a href="http://irc7.org/wp-content/uploads/2011/12/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://irc7.org/wp-content/uploads/2011/12/image_thumb.png" width="148" height="244"></a>We’re happy to report that a new 1.4 version of IRC7 is now available from the Marketplace. The new version adds a powerful alias-engine which we hope will make your IRC experience even more fluid. What is an alias-engine then? In short, it allows you to define shortcuts for your common IRC operations.</p>
+<h2>Basics of usage</h2>
+<p>Let’s go through one example. Previously, if you wanted to OP someone, you had to open the user management and give the new mode from there. But now you can create a shortcut in a form of an alias which allows you to OP the user with only few keystrokes. An example of an OP-alias looks like the following: </p>
+<blockquote><p>/op /mode $channel +o {0}</p>
+</blockquote>
+<p>The alias starts with your desired command word. There can be only one alias with the same command. In the example, the command word is “/op”. The rest of the alias consists of the operation you actually want to execute on the server. </p>
+<p>The IRC7 alias-engine also has few&nbsp; keywords which allow you create more complex aliases. In the example we’re using one of these keywords, the “$channel”. This particular keyword is replaced with channel name where this alias is executed. Our example alias also has one parameter which is marked by the “{0}”. One parameter is always one word, unless it is post fixed with the “-“ character.</p>
+<h2>Availability</h2>
+<p>The aliases are available from the chat window, from the server console and from the startup scripts.</p>
+<h2>Keywords</h2>
+<p>$channel = The current channel where alias is executed. If alias is execute from startup script or from server console, $channel is blank.</p>
+<p>$me = Your current nick.</p>
+<p>{0} = First parameter</p>
+<p>{1} = Second parameter</p>
+<p>{n} = …</p>
+<p>{n}- = Parameter which can contain multiple words. Can be only used as the last parameter of the alias. Please see an example of the /msg alias to see how this can be used.</p>
+<h2>Examples</h2>
+<h4></h4>
+<h4>Alias without parameters</h4>
+<p>/j /join #mychannel</p>
+<h4>Alias with one parameter</h4>
+<p>/j1 /join {0}</p>
+<h4></h4>
+<h4>Alias with two parameters</h4>
+<p>/jp /join {0} {1}</p>
+<h4>Alias with multiple operations</h4>
+<p>/j3 /join {0} | /join {1} | /join {2}</p>
+<h4>Alias with multi-word parameter</h4>
+<p>/msg /privmsg {0} :{1}- </p>
+<h4>Alias with $me and $channel keywords</h4>
+<p>/m /msg $channel hello, my name is $me!</p>
+<h4></h4>
+<h4>Alias which uses other alias</h4>
+<p>/msg /privmsg {0} :{1}-</p>
+<p>/id /msg ident me myPassword</p>
+</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="span4">
+                        <div class="page-header">
+                            <h1>UserVoice</h1>
+                        </div>
+                        <p>We use UserVoice to collect your great ideas and valuable feedback. Please, let us know if there's a way to make this IRC app better. </p>
+                        <a href="http://irc7.uservoice.com" target="_blank" class="btn btn-primary btn-large">Post your ideas</a>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <p class="pull-right">
+                        <a href="#">Back to top</a></p>
+                    <p>Copyright
+                        <a href="http://softwaremk.org" target="_blank">SoftwareMK
+                        </a>
+                        2012 </p>
+                    <h6>Created with
+                        <a href="https://github.com/mikoskinen/grazewp7">GrazeWP7</a>
+                        using the
+                        <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
+                    </h6>
+                </footer>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/shots/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
+
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
+
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
+    </script>
+</body>
+</html>

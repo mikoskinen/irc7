@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /assets/
-
-User-agent: *
 Disallow: /navigation.html
+Allow: /
+Disallow: /assets/
